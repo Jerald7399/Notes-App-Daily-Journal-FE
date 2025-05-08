@@ -18,7 +18,7 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 ****User Roles :****
 
-1. User :
+**1. User :**
 
 • Register and log in securely.
 
@@ -32,7 +32,7 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 ****Core Features :****
 
-1. Authentication :
+**1. Authentication :**
 
 • User registration and login using JWT.
 
@@ -40,7 +40,7 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 • Route protection for logged-in users only.
 
-2. Note Creation & Editing :
+**2. Note Creation & Editing :**
 
 • Rich text editor with markdown support.
 
@@ -48,19 +48,19 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 • Option to edit/delete existing entries.
 
-3. Tagging System :
+**3. Tagging System :**
 
 • Add one or more tags per note (e.g., #work, #personal, #ideas).
 
 • Filter notes by tags.
 
-4. Search & Filter :
+**4. Search & Filter :**
 
-• Full-text search by content.
+  • Full-text search by content.
 
-• Filter notes by tag or date range.
+  • Filter notes by tag or date range.
 
-5. Note Organization :
+**5. Note Organization :**
 
 • Display notes in list view with snippet preview.
 
@@ -82,13 +82,13 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 ****API Endpoints :****
 
-1. Auth :
+**1. Auth :**
 
 • POST /api/auth/register – Register new user
 
 • POST /api/auth/login – Authenticate and return JWT
 
-2. Notes :
+**2. Notes :**
 
 • GET /api/notes – Get all notes for user
 
@@ -100,7 +100,7 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 • DELETE /api/notes/{id} – Delete note
 
-3. Search/Filter :
+**3. Search/Filter :**
 
 • GET /api/notes?tag={tag} – Filter notes by tag
 
@@ -110,7 +110,7 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 ****Database Schema :****
 
-1. Users :
+**1. Users :**
 
 • id (UUID)
 
@@ -120,7 +120,7 @@ The Daily Journal / Notes App is a full-stack web application designed to help u
 
 • password (hashed)
 
-2. Notes :
+**2. Notes :**
 
 • id (UUID)
 
