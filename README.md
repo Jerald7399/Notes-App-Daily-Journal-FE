@@ -1,10 +1,10 @@
 ********Project Name: Daily Journal / Notes App** ******
 
-Overview :
+****Overview :****
 
 The Daily Journal / Notes App is a full-stack web application designed to help users write, organize, and manage daily notes or journal entries. Users can create entries using markdown formatting, tag their notes for easy categorization, and search through them by content, tags, or dates. The application is focused on simplicity, privacy, and effective journaling.
 
-Objectives :
+****Objectives :****
 
 • Allow users to securely register and log in to their personal note space.
 
@@ -16,7 +16,7 @@ Objectives :
 
 • Offer a clean and distraction-free writing interface.
 
-User Roles :
+****User Roles :****
 
 1. User :
 
@@ -30,7 +30,7 @@ User Roles :
 
 • View all previous entries in chronological order or by tag.
 
-Core Features :
+****Core Features :****
 
 1. Authentication :
 
@@ -68,7 +68,7 @@ Core Features :
 
 • Calendar or timeline view (optional).
 
-Technology Stack :
+****Technology Stack :****
 
 • Frontend: React.js, Tailwind CSS, Markdown Editor (e.g., React Markdown, SimpleMDE)
 
@@ -80,7 +80,7 @@ Technology Stack :
 
 • Optional Integrations: Local storage sync (for drafts), dark mode.
 
-API Endpoints :
+****API Endpoints :****
 
 1. Auth :
 
@@ -108,7 +108,7 @@ API Endpoints :
 
 • GET /api/notes/search?q=... – Search notes by content
 
-Database Schema :
+****Database Schema :****
 
 1. Users :
 
@@ -136,7 +136,7 @@ Database Schema :
 
 • updated_at
 
-UI Components :
+****UI Components :****
 
 • Login / Register Page
 
@@ -148,7 +148,7 @@ UI Components :
 
 • Sidebar: Tag filter, recent notes, search bar
 
-Success Criteria :
+****Success Criteria :****
 
 • Users can log in and securely manage their journal entries.
 
